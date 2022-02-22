@@ -1,0 +1,28 @@
+﻿{
+  "assemblies": {
+    "tutorial5": {
+      "assembly": "tutorial5.dll, tutorial5.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_test_dlg_and_table": {
+      "cmd": "test_dlg_and_table",
+      "title": "Диалог и таблица"
+    }
+  },
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "test_menu",
+          "title": "Примеры"
+        }
+      ]
+    },
+    "rbproj.test_menu": {
+      "items": [
+        "id_test_dlg_and_table"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial7\obj\Debug\tutorial8.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Out\Bin\tutorial8.plugin
+C:\Development\Projects\Out\Bin\tutorial8.dll
+C:\Development\Projects\Out\Bin\tutorial8.pdb
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial7\obj\Debug\tutorial8.dll
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial7\obj\Debug\tutorial8.pdb
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial7\obj\Debug\tutorial8.csprojAssemblyReference.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial8\tutorial8\tutorial8\obj\Debug\tutorial8.csproj.AssemblyReference.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial8\tutorial8\tutorial8\obj\Debug\tutorial8.csproj.CoreCompileInputs.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial8\tutorial8\tutorial8\obj\Debug\tutorial8.dll
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial8\tutorial8\tutorial8\obj\Debug\tutorial8.pdb
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial8.plugin
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial8.dll
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial8.pdb
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial8\tutorial8\tutorial8\obj\Debug\tutorial8.csproj.CopyComplete

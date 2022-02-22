@@ -1,0 +1,9 @@
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial5\tutorial5\tutorial5\obj\Debug\tutorial5.csproj.AssemblyReference.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial5\tutorial5\tutorial5\obj\Debug\tutorial5.TestSimpleDialog.resources
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial5\tutorial5\tutorial5\obj\Debug\tutorial5.csproj.GenerateResource.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial5\tutorial5\tutorial5\obj\Debug\tutorial5.csproj.CoreCompileInputs.cache
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial5.plugin
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial5.dll
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial5.pdb
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial5\tutorial5\tutorial5\obj\Debug\tutorial5.dll
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial5\tutorial5\tutorial5\obj\Debug\tutorial5.pdb

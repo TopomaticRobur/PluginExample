@@ -1,0 +1,39 @@
+﻿{
+  "assemblies": {
+    "tutorial2": {
+      "assembly": "tutorial2.dll, tutorial2.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_test_cmd1": {
+      "cmd": "test_cmd \"Параметр внутри команды\"",
+      "title": "Параметр внутри команды 1"
+    },
+    "id_test_cmd2": {
+      "cmd": "test_cmd \"%0\"",
+      "title": "Параметр снаружи из меню"
+    },
+    "id_test_cmd3": {
+      "cmd": "test_cmd \"%0\"",
+      "title": "Выключенный элемент",
+      "flags": "$(if, $(test_flags_cmd,Выключить), 0, 2)"
+    }
+  },
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "test_menu",
+          "title": "Примеры"
+        }
+      ]
+    },
+    "rbproj.test_menu": {
+      "items": [
+        "id_test_cmd1",
+        "id_test_cmd2 \"Параметр из меню\"",
+        "id_test_cmd3"
+      ]
+    }
+  }
+}

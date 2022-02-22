@@ -1,0 +1,14 @@
+C:\Development\Projects\Out\Bin\tutorial3.dll
+C:\Development\Projects\Out\Bin\tutorial3.pdb
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.dll
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.pdb
+C:\Development\Projects\Out\Bin\tutorial3.plugin
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.csprojAssemblyReference.cache
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial3.plugin
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial3.dll
+C:\Program Files\Topomatic Robur Survey 16.0\tutorial3.pdb
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial3\tutorial3\tutorial3\obj\Debug\tutorial3.csproj.AssemblyReference.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial3\tutorial3\tutorial3\obj\Debug\tutorial3.csproj.CoreCompileInputs.cache
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial3\tutorial3\tutorial3\obj\Debug\tutorial3.dll
+C:\Users\Prosterian\ProDocs\Dev\Robur Dev Tutorials\Fixed\tutorial3\tutorial3\tutorial3\obj\Debug\tutorial3.pdb

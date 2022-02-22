@@ -1,0 +1,61 @@
+﻿{
+  "assemblies": {
+    "tutorial10": {
+      "assembly": "tutorial10.dll, tutorial10.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_create_pointsmodel": {
+      "cmd": "create_pointsmodel \"%0\"",
+      "title": "Тестовая модель с точками"
+    },
+    "id_edit_pointsmodel": {
+      "cmd": "edit_pointsmodel",
+      "title": "Редактировать активную модель"
+    }
+  },
+  "contexts": {
+    "ctx_mkitem": {
+      "items": [
+        "id_create_pointsmodel \"%0\""
+      ]
+    },
+    "pointsmodel.context": {
+      "priority": 1001,
+      "items": [
+        { "default": "core.id_activate \"%0\"" },
+        "$(if,$(opened,%0),core.id_close \"%0\" \"Скрыть модель\",core.id_open \"%0\" \"Показать модель\")",
+        "core.id_rmitem \"%0\"",
+        "core.id_mvitem \"%0\"",
+        "core.id_dublicate \"%0\"",
+        "-",
+        "core.id_rmitem \"%0\""
+      ]
+    }
+  },
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "test_menu",
+          "title": "Примеры"
+        }
+      ]
+    },
+    "rbproj.test_menu": {
+      "items": [
+        "id_edit_pointsmodel"
+      ]
+    }
+  },
+  "cores": {
+    "pointsmodel": {
+      "title": "$(referencename,%0)",
+      "description": "Тестовая модель с точками %0",
+      "icon": "ic_file",
+      "statusicon": "",
+      "flags": "$(modelflags,%0)",
+      "menu": "pointsmodel.context \"%0\""
+    }
+  }
+}

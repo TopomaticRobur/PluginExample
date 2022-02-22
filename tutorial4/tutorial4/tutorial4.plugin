@@ -1,0 +1,28 @@
+﻿{
+  "assemblies": {
+    "tutorial4": {
+      "assembly": "tutorial4.dll, tutorial4.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_test_dynamic_render": {
+      "cmd": "test_dynamic_render",
+      "title": "Динамическая отрисовка"
+    }
+  },
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "test_menu",
+          "title": "Примеры"
+        }
+      ]
+    },
+    "rbproj.test_menu": {
+      "items": [
+        "id_test_dynamic_render"
+      ]
+    }
+  }
+}

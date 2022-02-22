@@ -1,0 +1,10 @@
+﻿{
+  "assemblies": {
+    "tutroial1": {
+      "assembly": "tutorial1.dll, tutorial1.ModulePluginHost"
+    }
+  },
+  "broadcasts": {
+    "assembly_loaded": "our_message"
+  }
+}

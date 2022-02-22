@@ -1,0 +1,43 @@
+﻿{
+  "assemblies": {
+    "tutorial6": {
+      "assembly": "tutorial6.dll, tutorial6.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_create_testmodel": {
+      "cmd": "create_testmodel \"%0\"",
+      "title": "Тестовая модель"
+    },
+    "id_edit_testmodel": {
+      "cmd": "edit_testmodel \"%0\"",
+      "title": "Редактировать..."
+    }
+  },
+  "contexts": {
+    "ctx_mkitem": {
+      "items": [
+        "id_create_testmodel \"%0\""
+      ]
+    },
+    "testmodel.context": {
+      "priority": 1001,
+      "items": [
+        { "default": "$(if,$(opened,%0),core.id_close \"%0\" \"Скрыть модель\",core.id_open \"%0\" \"Показать модель\")" },
+        "id_edit_testmodel \"%0\"",
+        "-",
+        "core.id_rmitem \"%0\""
+      ]
+    }
+  },
+  "cores": {
+    "testmodel": {
+      "title": "$(referencename,%0)",
+      "description": "Тестовая модель %0",
+      "icon": "ic_file",
+      "statusicon": "",
+      "flags": "$(modelflags,%0)",
+      "menu": "testmodel.context \"%0\""
+    }
+  }
+}

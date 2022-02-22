@@ -1,0 +1,33 @@
+﻿{
+  "assemblies": {
+    "tutorial11": {
+      "assembly": "tutorial11.dll, tutorial11.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_draw_test_block": {
+      "cmd": "draw_test_block",
+      "title": "Нарисовать блок на чертеже"
+    },
+    "id_draw_test_linetype": {
+      "cmd": "draw_test_linetype",
+      "title": "Нарисовать линию на чертеже"
+    }
+  },
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "test_menu",
+          "title": "Примеры"
+        }
+      ]
+    },
+    "rbproj.test_menu": {
+      "items": [
+        "id_draw_test_block",
+        "id_draw_test_linetype"
+      ]
+    }
+  }
+}

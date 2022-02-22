@@ -1,0 +1,33 @@
+﻿{
+  "assemblies": {
+    "tutorial3": {
+      "assembly": "tutorial3.dll, tutorial3.ModulePluginHost"
+    }
+  },
+  "actions": {
+    "id_test_select_objects": {
+      "cmd": "test_select_objects",
+      "title": "Выбор объектов"
+    },
+    "id_test_select_points": {
+      "cmd": "test_select_points",
+      "title": "Выбор точек"
+    }
+  },
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "test_menu",
+          "title": "Примеры"
+        }
+      ]
+    },
+    "rbproj.test_menu": {
+      "items": [
+        "id_test_select_objects",
+        "id_test_select_points"
+      ]
+    }
+  }
+}

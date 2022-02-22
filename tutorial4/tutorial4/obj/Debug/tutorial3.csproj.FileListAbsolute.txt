@@ -1,0 +1,7 @@
+C:\Development\Projects\Out\Bin\tutorial3.dll
+C:\Development\Projects\Out\Bin\tutorial3.pdb
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.dll
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.pdb
+C:\Development\Projects\Out\Bin\tutorial3.plugin
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial3\obj\Debug\tutorial3.csprojAssemblyReference.cache

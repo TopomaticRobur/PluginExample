@@ -1,0 +1,7 @@
+C:\Program Files\Topomatic Robur edu 15.0\tutorial1.dll
+C:\Work\projects\topomatic-tutorials\examples\tutorial1\tutorial1\obj\Debug\tutorial1.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Out\Bin\tutorial1.plugin
+C:\Development\Projects\Out\Bin\tutorial1.dll
+C:\Development\Projects\Out\Bin\tutorial1.pdb
+C:\Work\projects\topomatic-tutorials\examples\tutorial1\tutorial1\obj\Debug\tutorial1.dll
+C:\Work\projects\topomatic-tutorials\examples\tutorial1\tutorial1\obj\Debug\tutorial1.pdb

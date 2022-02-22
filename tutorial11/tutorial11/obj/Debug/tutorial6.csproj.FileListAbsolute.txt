@@ -1,0 +1,9 @@
+C:\Development\Projects\Out\Bin\tutorial6.plugin
+C:\Development\Projects\Out\Bin\tutorial6.dll
+C:\Development\Projects\Out\Bin\tutorial6.pdb
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial5\obj\Debug\tutorial6.EditModelDlg.resources
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial5\obj\Debug\tutorial6.csproj.GenerateResource.cache
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial5\obj\Debug\tutorial6.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial5\obj\Debug\tutorial6.dll
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial5\obj\Debug\tutorial6.pdb
+C:\Development\Projects\Sources\Thirdpaties\tutorial2\tutorial5\obj\Debug\tutorial6.csprojAssemblyReference.cache
