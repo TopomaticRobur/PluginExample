@@ -1,0 +1,38 @@
+﻿{
+  "assemblies": {
+    "TutorialSelectSurfaceElements": {
+      "assembly": "TutorialSelectSurfaceElements.dll, TutorialSelectSurfaceElements.ModulePluginHost"
+    }
+  },
+
+  "actions": {
+    "id_calculate_average_elevation": {
+      "cmd": "calculate_average_elevation",
+      "title": "Рассчитать среднюю отметку"
+    },
+    "id_define_steepest_grade": {
+      "cmd": "define_steepest_grade",
+      "title": "Рассчитать наибольший уклон"
+    },
+    "id_get_horizontal_line_area": {
+      "cmd": "get_horizontal_line_area",
+      "title": "Получить площадь горизонтали"
+    }
+  },
+
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "tutorial_menu",
+          "title": "Tutorial",
+          "items": [
+            "id_calculate_average_elevation",
+            "id_define_steepest_grade",
+            "id_get_horizontal_line_area"
+          ]
+        }
+      ]
+    }
+  }
+}

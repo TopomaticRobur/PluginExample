@@ -1,0 +1,33 @@
+﻿{
+  "assemblies": {
+    "TutorialEditSurfaceElements": {
+      "assembly": "TutorialEditSurfaceElements.dll, TutorialEditSurfaceElements.ModulePluginHost"
+    }
+  },
+
+  "actions": {
+    "id_create_hill_or_pit": {
+      "cmd": "create_hill_or_pit",
+      "title": "Построить насыпь или котлован"
+    },
+    "id_change_point_semantic_code": {
+      "cmd": "change_point_semantic_code",
+      "title": "Преобразование точки поверхности в пункт гос. геод. сети"
+    }
+  },
+
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "tutorial_menu",
+          "title": "Tutorial",
+          "items": [
+            "id_create_hill_or_pit",
+            "id_change_point_semantic_code"
+          ]
+        }
+      ]
+    }
+  }
+}
