@@ -1,5 +1,4 @@
-TutorialEditSurfaceElements/.vs
-TutorialEditSurfaceElements/TutorialEditSurfaceElements/obj
-TutorialSelectSurfaceElements/.vs
-TutorialSelectSurfaceElements/TutorialSelectSurfaceElements/obj
+**/.vs
+**/bin
+**/obj
 *.user

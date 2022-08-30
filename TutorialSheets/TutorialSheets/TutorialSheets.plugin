@@ -1,0 +1,29 @@
+﻿{
+  "assemblies": {
+    "TutorialSheets": {
+      "assembly": "TutorialSheets.dll, TutorialSheets.ModulePluginHost"
+    }
+  },
+
+  "actions": {
+    "id_tutorial_sheet": {
+      "cmd": "tutorial_sheet",
+      "title": "Ведомость рабочих отметок",
+      "description": "Ведомость рабочих отметок"
+    }
+  },
+
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "tutorial_menu",
+          "title": "Tutorial",
+          "items": [
+            "id_tutorial_sheet"
+          ]
+        }
+      ]
+    }
+  }
+}

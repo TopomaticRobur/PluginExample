@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialEditAlignment", "TutorialEditAlignment\TutorialEditAlignment.csproj", "{0C0A2014-9AAC-4E39-A6B6-B3ADB1B427F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0A2014-9AAC-4E39-A6B6-B3ADB1B427F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0A2014-9AAC-4E39-A6B6-B3ADB1B427F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0A2014-9AAC-4E39-A6B6-B3ADB1B427F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0A2014-9AAC-4E39-A6B6-B3ADB1B427F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49C3EF50-DBFE-46BC-9C05-709CBBA261B2}
+	EndGlobalSection
+EndGlobal

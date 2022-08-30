@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables title="Рабочие отметки">
+  <Styles>
+    <Style id="style_0">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>0</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+    <Style id="style_1">
+      <LeftBorderColor>7</LeftBorderColor>
+      <RightBorderColor>7</RightBorderColor>
+      <TopBorderColor>7</TopBorderColor>
+      <BottomBorderColor>7</BottomBorderColor>
+      <Alignment>4</Alignment>
+      <PreferableDisplayStyle>2</PreferableDisplayStyle>
+      <FloatDisplayStyleDigits>2</FloatDisplayStyleDigits>
+      <RotationAngle>0</RotationAngle>
+      <FillColor>33554432</FillColor>
+      <TextColor>7</TextColor>
+      <TextStyleName>Standard</TextStyleName>
+      <HorizontalField>1.50</HorizontalField>
+      <VerticalField>0.50</VerticalField>
+      <TextHeight>3.00</TextHeight>
+      <Bold>0</Bold>
+      <Italic>0</Italic>
+      <TextAngle>0.00</TextAngle>
+    </Style>
+  </Styles>
+  <Table id="Tutorial" name="Ведомость рабочих отметок">
+    <Subtable name="Заголовок" id="Head">
+      <Column index="0" width="50" options="2" />
+      <Column index="1" width="50" options="2" />
+      <Column index="2" width="50" options="2" />
+      <Column index="3" width="50" options="2" />
+      <Column index="4" width="50" options="2" />
+      <Row index="0" height="0" options="1">
+        <Cell index="0" colspan="5" style="style_0">$(getvar, SheetName)</Cell>
+      </Row>
+      <Row index="1" height="12" options="2">
+        <Cell index="0" style="style_0">ПК</Cell>
+        <Cell index="1" style="style_0">Расстояние от начала трассы, м</Cell>
+        <Cell index="2" style="style_0">Существующая отметка, м</Cell>
+        <Cell index="3" style="style_0">Проектная отметка, м</Cell>
+        <Cell index="4" style="style_0">Рабочая отметка, м</Cell>
+      </Row>
+      <Row index="2" height="6" options="2">
+        <Cell index="0" style="style_0">1</Cell>
+        <Cell index="1" style="style_0">2</Cell>
+        <Cell index="2" style="style_0">3</Cell>
+        <Cell index="3" style="style_0">4</Cell>
+        <Cell index="4" style="style_0">5</Cell>
+      </Row>
+    </Subtable>
+    <Subtable name="Данные" id="Row">
+      <Column index="0" width="50" options="2" />
+      <Column index="1" width="50" options="2" />
+      <Column index="2" width="50" options="2" />
+      <Column index="3" width="50" options="2" />
+      <Column index="4" width="50" options="2" />
+      <Row index="0" height="6" options="2">
+        <Cell index="0" style="style_1">$(getvar, Piket)</Cell>
+        <Cell index="1" style="style_1">$(getvar, Station)</Cell>
+        <Cell index="2" style="style_1">$(getvar, EgElevation)</Cell>
+        <Cell index="3" style="style_1">$(getvar, RedElevation)</Cell>
+        <Cell index="4" style="style_1">$(getvar, ElevationDelta)</Cell>
+      </Row>
+    </Subtable>
+  </Table>
+  <TextStyle Annotative="0" Backward="0" Name="Standard" FileName="SPDS.shx" Flags="0" FontName="SPDS" Height="2" LastUsedHeight="2" Oblique="0.261799395084381" Ratio="1" UpsideDown="0" />
+</Tables>

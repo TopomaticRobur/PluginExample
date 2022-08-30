@@ -1,0 +1,38 @@
+﻿{
+  "assemblies": {
+    "TutorialSelectCrossectionElements": {
+      "assembly": "TutorialSelectCrossectionElements.dll, TutorialSelectCrossectionElements.ModulePluginHost"
+    }
+  },
+
+  "actions": {
+    "id_select_construction_nodes_by_code": {
+      "cmd": "select_construction_nodes_by_code",
+      "title": "Выделить точки конструкции поперечника по коду"
+    },
+    "id_get_construction_contours_by_code": {
+      "cmd": "get_construction_contours_by_code",
+      "title": "Рассчитать площадь контуров конструкции поперечника по коду"
+    },
+    "id_calculate_construction_contours_intersection": {
+      "cmd": "calculate_construction_contours_intersection",
+      "title": "Рассчитать площадь насыпи/выемки на поперечнике"
+    }
+  },
+
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "tutorial_menu",
+          "title": "Tutorial",
+          "items": [
+            "id_select_construction_nodes_by_code",
+            "id_get_construction_contours_by_code",
+            "id_calculate_construction_contours_intersection"
+          ]
+        }
+      ]
+    }
+  }
+}

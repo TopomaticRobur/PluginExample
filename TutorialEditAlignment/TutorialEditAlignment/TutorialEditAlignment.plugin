@@ -1,0 +1,43 @@
+﻿{
+  "assemblies": {
+    "TutorialEditAlignment": {
+      "assembly": "TutorialEditAlignment.dll, TutorialEditAlignment.ModulePluginHost"
+    }
+  },
+
+  "actions": {
+    "id_define_stationing_at_point": {
+      "cmd": "define_stationing_at_point",
+      "title": "Определить пикетаж в точке"
+    },
+    "id_define_point_at_stationing": {
+      "cmd": "define_point_at_stationing",
+      "title": "Определить координаты по пикетажу и смещению"
+    },
+    "id_add_vertex_to_alignment": {
+      "cmd": "add_vertex_to_alignment",
+      "title": "Добавить вершину в план линии"
+    },
+    "id_smooth_peak": {
+      "cmd": "smooth_peak",
+      "title": "Сгладить вершину профиля"
+    }
+  },
+
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "tutorial_menu",
+          "title": "Tutorial",
+          "items": [
+            "id_define_stationing_at_point",
+            "id_define_point_at_stationing",
+            "id_add_vertex_to_alignment",
+            "id_smooth_peak"
+          ]
+        }
+      ]
+    }
+  }
+}

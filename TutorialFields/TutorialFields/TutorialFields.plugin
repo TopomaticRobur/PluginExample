@@ -1,0 +1,37 @@
+﻿{
+  "assemblies": {
+    "TutorialFields": {
+      "assembly": "TutorialFields.dll, TutorialFields.ModulePluginHost"
+    }
+  },
+
+  "actions": {
+    "id_insert_tutorial_profile_tag": {
+      "cmd": "insert_template_field \"MiddleCenter 0 TutorialProfileField_MaxMinElevation 0;1\"",
+      "title": "Мой тег продольного профиля",
+      "description": "Мой тег продольного профиля",
+      "flags": "$(prf_rail_field)"
+    },
+    "id_insert_tutorial_crossection_tag": {
+      "cmd": "insert_template_field \"MiddleCenter 0 TutorialCrossectionField_MaxMinElevation\"",
+      "title": "Мой тег поперечного профиля",
+      "description": "Мой тег поперечного профиля",
+      "flags": "$(crs_rail_field)"
+    }
+  },
+
+  "menubars": {
+    "rbproj": {
+      "items": [
+        {
+          "id": "tutorial_menu",
+          "title": "Tutorial",
+          "items": [
+            "id_insert_tutorial_profile_tag",
+            "id_insert_tutorial_crossection_tag"
+          ]
+        }
+      ]
+    }
+  }
+}
